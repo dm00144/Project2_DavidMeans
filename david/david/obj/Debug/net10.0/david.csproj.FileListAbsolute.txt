@@ -1,0 +1,14 @@
+C:\Users\htc00001\Downloads\david\david\david\bin\Debug\net10.0\david.exe
+C:\Users\htc00001\Downloads\david\david\david\bin\Debug\net10.0\david.deps.json
+C:\Users\htc00001\Downloads\david\david\david\bin\Debug\net10.0\david.runtimeconfig.json
+C:\Users\htc00001\Downloads\david\david\david\bin\Debug\net10.0\david.dll
+C:\Users\htc00001\Downloads\david\david\david\bin\Debug\net10.0\david.pdb
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\david.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\david.AssemblyInfoInputs.cache
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\david.AssemblyInfo.cs
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\david.csproj.CoreCompileInputs.cache
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\david.dll
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\refint\david.dll
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\david.pdb
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\david.genruntimeconfig.cache
+C:\Users\htc00001\Downloads\david\david\david\obj\Debug\net10.0\ref\david.dll

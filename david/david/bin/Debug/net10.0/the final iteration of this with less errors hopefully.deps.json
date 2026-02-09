@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "the final iteration of this with less errors hopefully/1.0.0": {
+        "runtime": {
+          "the final iteration of this with less errors hopefully.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "the final iteration of this with less errors hopefully/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

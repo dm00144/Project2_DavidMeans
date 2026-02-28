@@ -129,6 +129,29 @@ class Dish
 }
 class Program
 {
+    static string chef()
+    {
+        Random rng =  new Random();
+        int chefNo = rng.next(1,3);
+        int chefScore;
+        switch (chefNo)
+        {
+    case 1:
+        Console.WriteLine("Count Dracula");
+        chefScore = 9;
+        break;
+
+    case 2:
+        Console.WriteLine("Alucard");
+        chefScore = 7;
+        break;
+
+    case 3:
+        Console.WriteLine("Van Helsing");
+        chefScore = 5;
+        break;
+        }
+    }
     static void Main()
     {
         // Story Setup/ Welcome
@@ -137,7 +160,7 @@ class Program
         Console.WriteLine("What is your name challenger?\n");
         string playername = Console.ReadLine();
         Console.WriteLine("In the finals of this seasons show we have a showdown between two culinary greats!\n");
-        Console.WriteLine("In the blue kitchen we have Count Dracula!\n");
+        Console.WriteLine("In the blue kitchen we have" + chef +"!\n");
         Console.WriteLine("In the red kitchen we have " + playername + "!\n");
         Console.WriteLine("Tonight we find out who is the best Chef!\n");
         Console.WriteLine("In this competition we are seeking refinement in the shortest time possible, Do you go for the extravagant meal or the quick home meal?\n");
@@ -261,11 +284,10 @@ class Program
         Console.WriteLine("Presentation: " + playerDish.Presentation);
         Console.WriteLine("Speed: " + playerDish.Speed);
         Console.WriteLine("AVERAGE SCORE: " + playerDish.AverageScore());
-        if (playerDish.AverageScore() >= 9)
-            Console.WriteLine("Outstanding! A culinary masterpiece!");
-        else if (playerDish.AverageScore() >= 7)
-            Console.WriteLine("Great job! The judges are impressed!");
+        if (playerDish.AverageScore() >= chefScore)
+            Console.WriteLine("Outstanding! You beat the chef!");
         else
             Console.WriteLine("Better luck next time! Maybe practice your plating.");
     }
+
 }

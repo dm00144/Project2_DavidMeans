@@ -10,6 +10,7 @@ class Dish
     public int Taste { get; private set; }
     public int Presentation { get; private set; }
     public int Speed { get; private set; }
+    public int Timer { get; private set; } // Added a Timer
 
     public Dish(string style, string protein, string veg, string starch, string presentation)
     {
@@ -27,6 +28,7 @@ class Dish
         Taste = 3;
         Presentation = 3;
         Speed = 3;
+        Timer = 10;
 
 
         ApplyStyleModifiers();
@@ -45,12 +47,14 @@ class Dish
             Taste += 4;
             Presentation += 3;
             Speed -= 2;
+            Timer -= 4;
         }
         else if (Style.Equals("Country", StringComparison.OrdinalIgnoreCase))
         {
             Taste += 4;
             Presentation -= 2;
             Speed += 3;
+            Timer -= 2;
         }
     }
 
@@ -61,6 +65,7 @@ class Dish
             Taste += 3;
             Presentation += 2;
             Speed -= 1;
+            Timer -= 2;
         }
         else if (Protein.Equals("Salmon", StringComparison.OrdinalIgnoreCase))
         {
@@ -78,6 +83,7 @@ class Dish
         {
             Presentation += 1;
             Taste += 1;
+            Timer -= 1;
         }
         else if (Vegetable.Equals("Broccoli", StringComparison.OrdinalIgnoreCase))
         {
@@ -101,6 +107,7 @@ class Dish
         else if (Starch.Equals("Potato", StringComparison.OrdinalIgnoreCase))
         {
             Taste += 1;
+            Timer -= 1;
         }
     }
 
@@ -110,6 +117,7 @@ class Dish
         {
             Presentation += 3;
             Speed -= 2;
+            Timer -= 2;
         }
         else if (PresentationStyle.Equals("Quick", StringComparison.OrdinalIgnoreCase))
         {

@@ -42,13 +42,13 @@ class Dish
     {
         if (Style.Equals("Elegant", StringComparison.OrdinalIgnoreCase))
         {
-            Taste += 2;
+            Taste += 4;
             Presentation += 3;
             Speed -= 2;
         }
         else if (Style.Equals("Country", StringComparison.OrdinalIgnoreCase))
         {
-            Taste += 2;
+            Taste += 4;
             Presentation -= 2;
             Speed += 3;
         }
@@ -58,8 +58,8 @@ class Dish
     {
         if (Protein.Equals("Steak", StringComparison.OrdinalIgnoreCase))
         {
-            Taste += 2;
-            Presentation += 1;
+            Taste += 3;
+            Presentation += 2;
             Speed -= 1;
         }
         else if (Protein.Equals("Salmon", StringComparison.OrdinalIgnoreCase))
@@ -71,7 +71,7 @@ class Dish
         {
             Speed += 2;
             Presentation -= 1;
-            Taste += 1;
+            Taste += 2;
         }
 
         if (Vegetable.Equals("Asparagus", StringComparison.OrdinalIgnoreCase))
@@ -86,7 +86,7 @@ class Dish
         }
         else if (Vegetable.Equals("Brussel Sprouts", StringComparison.OrdinalIgnoreCase))
         {
-            Taste += 1;
+            Speed += 1;
             Presentation += 1;
         }
 
@@ -108,12 +108,12 @@ class Dish
     {
         if (PresentationStyle.Equals("Complicated", StringComparison.OrdinalIgnoreCase))
         {
-            Presentation += 2;
+            Presentation += 3;
             Speed -= 2;
         }
         else if (PresentationStyle.Equals("Quick", StringComparison.OrdinalIgnoreCase))
         {
-            Speed += 2;
+            Speed += 3;
             Presentation -= 2;
         }
     }
@@ -268,4 +268,5 @@ class Program
         else
             Console.WriteLine("Better luck next time! Maybe practice your plating.");
     }
+
 }
